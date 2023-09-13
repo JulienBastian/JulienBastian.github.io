@@ -4,6 +4,5 @@ excerpt: "Short description of portfolio item number 1<br/><img src='/images/500
 collection: portfolio
 ---
 
-[<br/><img src='/images/500x300.png'>](https://julienbastian.github.io/files/Domain%20Adaptation%20from%20a%20PAC-Bayesian%20Random%20Features%20perspective.pdf)
+[report <br/><img src='/images/500x300.png'>](https://julienbastian.github.io/files/Domain%20Adaptation%20from%20a%20PAC-Bayesian%20Random%20Features%20perspective.pdf)
 
-<br/><img src='/images/500x300.png'>
