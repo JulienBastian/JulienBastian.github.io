@@ -5,6 +5,6 @@ collection: portfolio
 ---
 
 
-[report <br/> <br/><img src='/images/500x300.png'>](https://julienbastian.github.io/files/Learning Representations for Wavelets, an Application to ECG Classification.pdf)
+[report <br/> <br/><img src='/images/500x300.png'>](https://julienbastian.github.io/files/Learning%20Representations%20for%20Wavelets,%20an%20Application%20to%20ECG%20Classification.pdf)
 
 
