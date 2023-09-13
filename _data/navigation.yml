@@ -1,13 +1,13 @@
-# main links links
+r# main links links
 main:
   - title: "Home"
     url: /about/
 
   - title: "News"
-    url: /news/    
+    url: /year-archive/    
 
   - title: "Works"
-    url: /works/    
+    url: /portfolio/    
     
   - title: "CV"
     url: /CV/
