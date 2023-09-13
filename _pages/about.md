@@ -11,4 +11,4 @@ redirect_from:
 
 ## Site
 
-powered by [academics.pages/git-hub.io](https://academicpages.github.io/)https://academicpages.github.io/
+powered by [academics.pages/git-hub.io](https://academicpages.github.io/)
