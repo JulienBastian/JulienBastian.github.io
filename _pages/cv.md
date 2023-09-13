@@ -16,7 +16,7 @@ Education
 
 Research internships
 ======
-</br>
+<br>
 
 **March - July 2023: Random Fourier Features for PAC-Bayesian Domain Adaptation.** [project page](https://julienbastian.github.io//portfolio/portfolio-1/)
 
@@ -24,8 +24,8 @@ I was a research intern under the supervision of Guillaume Metzler from ERIC lab
   * **Literature review** :  Domain Adaptation and PAC Bayesian Learning and the preliminary work based on Random Fourier Features
   * **Theoretical** : A novel bound for kernel approximation for Domain Adaptation
   * **Practical** : Implementation and evaluation of the proposed algorithm
-</br>
-</br>
+<br>
+<br>
 
 
 **May - June 2022 : Learning Representations for Wavelets, an Application to ECG Classification.** [project page](https://julienbastian.github.io//portfolio/portfolio-2/)
