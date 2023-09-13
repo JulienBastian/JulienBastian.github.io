@@ -23,6 +23,8 @@ I was a research intern under the supervision of Guillaume Metzler from ERIC lab
   * **Theoretical** : A novel bound for kernel approximation for Domain Adaptation
   * **Practical** : Implementation and evaluation of the proposed algorithm
 <br\>
+<br\>
+<br\>
 
 **May - June 2022 : Learning Representations for Wavelets, an Application to ECG Classification.** [project page](https://julienbastian.github.io//portfolio/portfolio-2/)
   * **Literature review** : Deep learning fundamentals, representation learning, Wavelets
