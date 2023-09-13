@@ -5,3 +5,7 @@ collection: portfolio
 ---
 
 [report](https://julienbastian.github.io/files/Domain%20Adaptation%20from%20a%20PAC-Bayesian%20Random%20Features%20perspective.pdf)
+
+<br/><img src='/images/500x300.png'>
+
+<br/><img src='/images/500x300.png'>
