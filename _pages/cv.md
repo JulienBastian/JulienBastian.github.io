@@ -14,7 +14,7 @@ Education
 * B.S. in Applied Mathematics for the Social Sciences, Lyon 2 University, 2019 - 2022
 * M.S. in Applied Mathematics for the Social Sciences, Lyon 2 University, 2022 - 2024 (expected)
 
-Research internship
+Research internships
 ======
 * Summer 2015: Research Assistant
   * Github University
