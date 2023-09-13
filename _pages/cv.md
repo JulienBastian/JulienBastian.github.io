@@ -17,6 +17,7 @@ Education
 Research internships
 ======
 March - July 2023: Random Fourier Features for PAC-Bayesian Domain Adaptation. [project page](https://julienbastian.github.io//portfolio/portfolio-1/)\
+
 I was a research intern under the supervision of Guillaume Metzler from ERIC laboratory in Lyon, Emilie Morvant and Marie-Ange Lèbre from Hubert Curien laboratory in St-Etienne during 5 months. 
   * Literature review :  Domain Adaptation and PAC Bayesian Learning and the preliminary work based on Random Fourier Features
   * Theoretical : A novel bound for kernel approximation for Domain Adaptation
