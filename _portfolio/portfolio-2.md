@@ -6,7 +6,7 @@ collection: portfolio
 ---
 
 
-[report <br/> <br/><img src='/images/fiche_stage_ECGclassif.png'
+[Report : <br/> <br/><img src='/images/fiche_stage_ECGclassif.png'
                      height=300px>](https://julienbastian.github.io/files/Learning%20Representations%20for%20Wavelets,%20an%20Application%20to%20ECG%20Classification.pdf)
 
 
