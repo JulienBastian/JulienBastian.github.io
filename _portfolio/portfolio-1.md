@@ -5,7 +5,8 @@ collection: portfolio
 ---
 Project description
 
-[report
-<br/> <br/> <img src='/images/fiche_stage_PBDA.png'>](https://julienbastian.github.io/files/Domain%20Adaptation%20from%20a%20PAC-Bayesian%20Random%20Features%20perspective.pdf)
+[Report
+<br/> <br/> <img src='/images/fiche_stage_PBDA.png', height=600px>](https://julienbastian.github.io/files/Domain%20Adaptation%20from%20a%20PAC-Bayesian%20Random%20Features%20perspective.pdf)
+
 
 [project repository ](https://github.com/JulienBastian/Stage-Julien)
