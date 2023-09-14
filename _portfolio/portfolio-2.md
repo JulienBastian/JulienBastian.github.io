@@ -1,6 +1,6 @@
 ---
 title: "Learning representation with Wavelets, ECG classification"
-excerpt: "Short description of portfolio item number 2 <br/><img src='/images/fiche_stage_ECGclassif(300).png'>"
+excerpt: "Short description of portfolio item number 2 <br/><img src='/images/500x300.png'>"
 collection: portfolio
 ---
 
