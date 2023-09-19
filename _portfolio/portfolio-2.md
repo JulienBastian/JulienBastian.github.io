@@ -9,7 +9,7 @@ During this internship, under the supervision of [Guillaume Metzler](https://gui
 In summary, our work represents an amalgamation of innovative techniques aimed at better representating and classifying heartbeat patterns using Deep Neural Networks and signal analysis transformations.
 <br/>
 <br/>
-The report can be found [here (french). <br/> <br/><img src='/images/fiche_stage_ECGclassif.png'
+The report is available [here (french). <br/> <br/><img src='/images/fiche_stage_ECGclassif.png'
                      height=300px>](https://julienbastian.github.io/files/Learning%20Representations%20for%20Wavelets,%20an%20Application%20to%20ECG%20Classification.pdf)
 
 
