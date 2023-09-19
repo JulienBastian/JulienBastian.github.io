@@ -1,7 +1,6 @@
 ---
 title: "Random Fourier Features for PAC-Bayesian Domain Adaptation"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/fiche_stage_PBDA.png'
-              height=300px>"
+excerpt: "Short description of portfolio item number 1<br/>"
 collection: portfolio
 ---
 Project description
