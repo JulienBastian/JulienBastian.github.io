@@ -1,6 +1,7 @@
 ---
 title: "Learning representation with Wavelets, ECG classification"
-excerpt: "Short description of portfolio item number 2 <br/><img src='/images/500x300.png'>"
+excerpt: "Short description of portfolio item number 2 <br/><img src='/images/fiche_stage_ECGclassif.png'
+                     height=300px'>"
 collection: portfolio
 ---
 [Guillaume Metzler](https://guillaumemetzler.github.io/)
