@@ -1,5 +1,5 @@
 ---
-title: "Learning representation with Wavelets, ECG classification"
+title: "Learning representation with Wavelets an application to ECG classification"
 excerpt: "In our research, we combined Convolutional Neural Networks and Continuous Wavelet Transformation techniques to enhance heartbeat classification using electrocardiograms. This combination aims to efficiently detect cardiac anomalies, like arrhythmia, offering potential advancements in cardiac health monitoring and diagnostics. <br/> <br/>"
 collection: portfolio
 ---
