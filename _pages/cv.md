@@ -13,7 +13,9 @@ Education
 ======
 * B.S. in Applied Mathematics for the Social Sciences, Lyon 2 University, 2019 - 2022
 * [M.S. in Applied Mathematics for the Social Sciences](https://assp.univ-lyon2.fr/formation/en-alternance/master-miashs), Lyon 2 University, 2022 - 2024 (expected)
-<br>
+<br/>
+<br/>
+
 
 Research internships
 ======
