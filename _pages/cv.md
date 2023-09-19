@@ -19,7 +19,6 @@ Education
 
 Research internships
 ======
-<br>
 
 **May - June 2022 : Learning Representations for Wavelets, an Application to ECG Classification.** [project page](https://julienbastian.github.io//portfolio/portfolio-2/)
   * **Literature review** : Deep learning fundamentals, representation learning, Wavelets
