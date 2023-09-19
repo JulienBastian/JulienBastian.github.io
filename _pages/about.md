@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About me"
+title: ""
 excerpt: "About me"
 author_profile: true
 classes: wide
@@ -11,6 +11,7 @@ redirect_from:
 
 About Me
 ===
+<br/>
 
 Hello! I'm Julien Bastian, an aspiring researcher with a passion for applied mathematics and machine learning. I'm currently pursuing my Master's degree at the  **Université Lyon 2**, where I've also completed my Bachelor's in Applied Mathematics and Computer Science.
 
