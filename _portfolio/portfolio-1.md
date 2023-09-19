@@ -1,6 +1,6 @@
 ---
 title: "Random Fourier Features for PAC-Bayesian Domain Adaptation"
-excerpt: Building on PAC-Bayesian theory for Domain Adaptation, the research emphasizes kernel approximation methods with  Random Fourier Features, to enhance data representation for classification in target domains without labels. We developped a novel PAC-Bayesian for this set-up and derived a learning algorithm. <br/>  <br/>"
+excerpt: "Building on PAC-Bayesian theory for Domain Adaptation, the research emphasizes kernel approximation methods with  Random Fourier Features, to enhance data representation for classification in target domains without labels. We developped a novel PAC-Bayesian for this set-up and derived a learning algorithm. <br/>  <br/>"
 collection: portfolio
 ---
 <br/>
