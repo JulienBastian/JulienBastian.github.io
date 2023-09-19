@@ -9,7 +9,8 @@ redirect_from:
   - /about.html
 ---
 
-### About Me
+About Me
+===
 
 Hello! I'm Julien Bastian, an aspiring researcher with a passion for applied mathematics and machine learning. I'm currently pursuing my Master's degree at the  **Université Lyon 2**, where I've also completed my Bachelor's in Applied Mathematics and Computer Science.
 
