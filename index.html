@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Academic webpage of Julien Bastian, PhD student in computer science.">
+    <title>Julien Bastian</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+    <nav id="navbar" aria-label="Main navigation">
+        <a href="#presentation">About</a>
+        <a href="#publications">Publications</a>
+        <a href="#enseignements">Teaching</a>
+    </nav>
+
+    <main class="autoshow">
+        <section id="presentation" class="presentation-card reveal">
+            <div class="pres-top">
+                <div class="pres-text">
+                    <p class="section-label">About</p>
+                    <h1>Julien Bastian</h1>
+                    <p class="subtitle">PhD student in Computer Science</p>
+                    <img src="images/Screenshot_20260608-225327.png" alt="Portrait of Julien Bastian" id="Image">
+                    <p>
+                        Since October 2024, I have been a PhD student in Computer Science at the
+                        <a class="academic-link" href="https://laboratoirehubertcurien.univ-st-etienne.fr/" target="_blank" rel="noopener noreferrer">Hubert Curien Laboratory</a>,
+                        <a class="academic-link" href="https://www.univ-st-etienne.fr/" target="_blank" rel="noopener noreferrer">Université Jean Monnet</a>
+                        in Saint-Étienne, where I am a member of the
+                        <a class="academic-link" href="https://laboratoirehubertcurien.univ-st-etienne.fr/en/teams/machine-learning.html" target="_blank" rel="noopener noreferrer">Machine Learning team</a>.
+                        My research lies in the field of machine learning, with a particular
+                        focus on <strong>algorithmic fairness</strong> and <strong>PAC-Bayesian theory</strong>.
+                        I am interested in understanding how learning algorithms can be designed with
+                        theoretical guarantees while taking fairness-related constraints into account.
+                    </p>
+                    <p>
+                        My PhD is supervised by
+                        <a class="academic-link" href="https://perso.univ-st-etienne.fr/largeron/" target="_blank" rel="noopener noreferrer">Christine Largeron</a>,
+                        <a class="academic-link" href="https://emorvant.github.io/" target="_blank" rel="noopener noreferrer">Emilie Morvant</a>, and
+                        <a class="academic-link" href="https://guillaumemetzler.github.io/" target="_blank" rel="noopener noreferrer">Guillaume Metzler</a>.
+                        The goal of my research is to study how PAC-Bayesian tools can contribute to the
+                        analysis and design of fair learning algorithms. More broadly, my work aims to connect
+                        theoretical machine learning with questions related to the fairness of predictive models.
+                    </p>
+                </div>
+            </div>
+
+            <div class="pres-links">
+                <span class="email-address">
+                    <i class="fa-solid fa-envelope" aria-hidden="true"></i> julien.bastian@univ-st-etienne.fr
+                </span>
+                <a href="https://github.com/JulienBastian" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-github" aria-hidden="true"></i> GitHub
+                </a>
+                <a href="https://scholar.google.com/citations?user=1DlfxVwAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-solid fa-graduation-cap" aria-hidden="true"></i> Scholar
+                </a>
+            </div>
+        </section>
+
+        <section id="publications" class="reveal">
+            <h2>Publications</h2>
+            <!-- Publications are managed in content.js. -->
+            <div id="publication-content"></div>
+        </section>
+
+        <section id="enseignements" class="reveal">
+            <h2>Teaching</h2>
+            <!-- Teaching activities are managed in content.js. -->
+            <div id="teaching-content"></div>
+        </section>
+
+    </main>
+
+    <div id="particles-js" aria-hidden="true"></div>
+
+    <script src="particles.min.js"></script>
+    <script src="app.js"></script>
+    <script src="content.js"></script>
+    <script src="render-content.js"></script>
+    <script>
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.1, rootMargin: "0px 0px -50px 0px" });
+
+        document.querySelectorAll('.reveal').forEach((element) => observer.observe(element));
+    </script>
+</body>
+
+</html>
