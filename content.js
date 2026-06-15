@@ -11,6 +11,7 @@ const SITE_CONTENT = {
       heading: "Workshops",
       publications: [
         {
+          hidden: true,
           title: "Towards PAC-Bayesian Guarantees for Self-Certified Fair Classification",
           authors: [
             "Julien Bastian",
@@ -23,28 +24,6 @@ const SITE_CONTENT = {
             "Paul Viallard"
           ],
           venue: "Learning Theory Summer School & Workshop (LTSS), Copenhagen",
-          year: "2026",
-          note: "",
-          links: []
-        }
-      ]
-    },
-    {
-      heading: "French conferences",
-      publications: [
-        {
-          title: "Garanties en généralisation PAC-Bayésiennes pour l'équité de prédicteurs stochastiques et déterministes",
-          authors: [
-            "Julien Bastian",
-            "Benjamin Leblanc",
-            "Pascal Germain",
-            "Amaury Habrard",
-            "Christine Largeron",
-            "Guillaume Metzler",
-            "Emilie Morvant",
-            "Paul Viallard"
-          ],
-          venue: "Conférence sur l'Apprentissage automatique (CAp), PFIA",
           year: "2026",
           note: "",
           links: []
@@ -74,6 +53,69 @@ const SITE_CONTENT = {
           ]
         }
       ]
+    },
+    {
+      heading: "French Conferences",
+      publications: [
+        {
+          hidden: true,
+          title: "Garanties en généralisation PAC-Bayésiennes pour l'équité de prédicteurs stochastiques et déterministes",
+          authors: [
+            "Julien Bastian",
+            "Benjamin Leblanc",
+            "Pascal Germain",
+            "Amaury Habrard",
+            "Christine Largeron",
+            "Guillaume Metzler",
+            "Emilie Morvant",
+            "Paul Viallard"
+          ],
+          venue: "Conférence sur l'Apprentissage automatique (CAp), PFIA",
+          year: "2026",
+          note: "",
+          links: []
+        },
+        {
+          title: "Détection non supervisée d'anomalies dans les images satellites pour le monitoring des surfaces océaniques par une composition d'ACP robuste et d'un test d'adéquation sur la distance de Wasserstein entre processus ponctuels",
+          authors: [
+            "Julien Bastian",
+            "Stéphane Chrétien",
+            "Ben Gao",
+            "Rémi Vaucher"
+          ],
+          venue: "Conférence sur l'Apprentissage automatique (CAp)",
+          year: "2024",
+          note: "",
+          links: []
+        }
+      ]
+    }
+  ],
+
+  seminars: [
+    {
+      title: "Bias and Fairness in Artificial Intelligence",
+      event: "Pint of Science · Technology and Ethics: Two Faces of AI",
+      location: "Rouen",
+      date: "May 2026",
+      note: "Joint talk with Hind Atbir.",
+      links: []
+    },
+    {
+      title: "Towards Fair Learning with Multiple Sensitive Attributes under a PAC-Bayesian Perspective",
+      event: "ANR FAMOUS Project Workshop",
+      location: "Université Jean Monnet, Saint-Étienne, France",
+      date: "November 2025",
+      note: "",
+      links: []
+    },
+    {
+      title: "PAC-Bayesian Generalization Guarantees for Fairness",
+      event: "ANR FAMOUS Project Workshop",
+      location: "Aix-Marseille Université, France",
+      date: "March 2025",
+      note: "",
+      links: []
     }
   ],
 
@@ -83,26 +125,30 @@ const SITE_CONTENT = {
       courses: [
         {
           code: "M4DSM821",
-          title: "Information Systems",
-          details: "1st-year Master's in Economic Analysis and Policy · 18 h labs",
+          title: "Information Systems (SQL programming)",
+          language: "French",
+          details: "1st-year Master's in Economic Analysis and Policy · 18 h TD",
           description: ""
         },
         {
           code: "S3INF05B",
-          title: "Programming",
-          details: "2nd-year BSc in Computer Science, apprenticeship track · 14 h labs",
+          title: "Imperative Programming (C)",
+          language: "French",
+          details: "2nd-year BSc in Computer Science, apprenticeship track · 4 h TD and 10 h TP",
           description: ""
         },
         {
           code: "S8DSC02",
           title: "Machine Learning Fundamentals",
-          details: "1st-year Master's in Data and Connected Systems · 5 h lectures and 3 h labs",
+          language: "English",
+          details: "1st-year Master's in Data and Connected Systems · 5 h CM and 3 h TP",
           description: ""
         },
         {
           code: "5MLMUT3",
           title: "Machine Learning I",
-          details: "2nd-year Master's in Economics, Data and Decision Science · 18 h lectures",
+          language: "English",
+          details: "2nd-year Master's in Economics, Data and Decision Science · 18 h CM",
           description: ""
         }
       ]
@@ -112,26 +158,30 @@ const SITE_CONTENT = {
       courses: [
         {
           code: "M4DSM821",
-          title: "Information Systems",
-          details: "1st-year Master's in Economic Analysis and Policy · 18 h labs",
+          title: "Information Systems (SQL programming)",
+          language: "French",
+          details: "1st-year Master's in Economic Analysis and Policy · 18 h TD",
           description: ""
         },
         {
           code: "S3INF05B",
-          title: "Programming",
-          details: "2nd-year BSc in Computer Science, apprenticeship track · 14 h labs",
+          title: "Imperative Programming (C)",
+          language: "French",
+          details: "2nd-year BSc in Computer Science, apprenticeship track · 4 h TD and 10 h TP",
           description: ""
         },
         {
           code: "S8DSC02",
           title: "Machine Learning Fundamentals",
-          details: "1st-year Master's in Data and Connected Systems · 5 h lectures and 3 h labs",
+          language: "English",
+          details: "1st-year Master's in Data and Connected Systems · 5 h CM and 3 h TP",
           description: ""
         },
         {
           code: "UE33L2IN",
-          title: "Computer Science III: Programming",
-          details: "2nd-year BSc in Economics · 24 h labs",
+          title: "Computer Science III: Programming (Python)",
+          language: "English",
+          details: "2nd-year BSc in Economics · 24 h TD",
           description: ""
         }
       ]

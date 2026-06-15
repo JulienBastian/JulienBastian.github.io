@@ -60,6 +60,26 @@ In `teachingYears`, add a course to the relevant academic year:
 
 For a new academic year, duplicate a block containing `year` and `courses`.
 
+## Add a seminar or informal scientific talk
+
+Add the most recent entry at the beginning of the `seminars` list:
+
+```js
+{
+  title: "Title of the talk",
+  event: "Name of the seminar or research group",
+  location: "Institution or city",
+  date: "October 2026",
+  note: "Optional context, or an empty string.",
+  links: [
+    { label: "Slides", url: "https://..." }
+  ]
+}
+```
+
+Use `links: []` when there is no link. The Seminars section remains hidden
+while the list is empty.
+
 ## Ajouter une actualité
 
 Ajouter l'actualité la plus récente au début de la liste `news` :

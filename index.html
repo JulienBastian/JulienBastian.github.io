@@ -13,7 +13,8 @@
 <body>
     <nav id="navbar" aria-label="Main navigation">
         <a href="#presentation">About</a>
-        <a href="#publications">Publications</a>
+        <a href="#publications">Research</a>
+        <a href="#seminars" id="seminars-nav" hidden>Seminars</a>
         <a href="#enseignements">Teaching</a>
     </nav>
 
@@ -28,23 +29,35 @@
                     <p>
                         Since October 2024, I have been a PhD student in Computer Science at the
                         <a class="academic-link" href="https://laboratoirehubertcurien.univ-st-etienne.fr/" target="_blank" rel="noopener noreferrer">Hubert Curien Laboratory</a>,
-                        <a class="academic-link" href="https://www.univ-st-etienne.fr/" target="_blank" rel="noopener noreferrer">Université Jean Monnet</a>
+                        <a class="academic-link" href="https://www.univ-st-etienne.fr/" target="_blank" rel="noopener noreferrer">Université Jean Monnet (France)</a>
                         in Saint-Étienne, where I am a member of the
                         <a class="academic-link" href="https://laboratoirehubertcurien.univ-st-etienne.fr/en/teams/machine-learning.html" target="_blank" rel="noopener noreferrer">Machine Learning team</a>.
-                        My research lies in the field of machine learning, with a particular
+                        My research lies in the field of statistical machine learning, with a particular
                         focus on <strong>algorithmic fairness</strong> and <strong>PAC-Bayesian theory</strong>.
-                        I am interested in understanding how learning algorithms can be designed with
+                        I am interested in understanding how learning algorithms can be designed with (and from)
                         theoretical guarantees while taking fairness-related constraints into account.
                     </p>
                     <p>
                         My PhD is supervised by
                         <a class="academic-link" href="https://perso.univ-st-etienne.fr/largeron/" target="_blank" rel="noopener noreferrer">Christine Largeron</a>,
                         <a class="academic-link" href="https://emorvant.github.io/" target="_blank" rel="noopener noreferrer">Emilie Morvant</a>, and
-                        <a class="academic-link" href="https://guillaumemetzler.github.io/" target="_blank" rel="noopener noreferrer">Guillaume Metzler</a>.
+                        <a class="academic-link" href="https://guillaumemetzler.github.io/" target="_blank" rel="noopener noreferrer">Guillaume Metzler</a>, and is funded by the french project ANR Famous (Fairness-Aware Multimodal Learning Under Structured Assumptions).
                         The goal of my research is to study how PAC-Bayesian tools can contribute to the
                         analysis and design of fair learning algorithms. More broadly, my work aims to connect
                         theoretical machine learning with questions related to the fairness of predictive models.
                     </p>
+                    <div class="research-interests">
+                        <h2>Research interests</h2>
+                        <ul aria-label="Research interests">
+                            <li>Fairness and Bias in Machine Learning</li>
+                            <li>PAC-Bayesian theory</li>
+                            <li>Statistical machine learning</li>
+                            <li>Learning theory</li>
+                            <li>Generalization guarantees</li>
+                            <li>Supervised learning</li>
+                            <li>Self-bounding algorithms</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
 
@@ -62,9 +75,15 @@
         </section>
 
         <section id="publications" class="reveal">
-            <h2>Publications</h2>
+            <h2>Research</h2>
             <!-- Publications are managed in content.js. -->
             <div id="publication-content"></div>
+        </section>
+
+        <section id="seminars" class="reveal" hidden>
+            <h2>Seminars</h2>
+            <!-- Seminars and informal scientific talks are managed in content.js. -->
+            <div id="seminar-content"></div>
         </section>
 
         <section id="enseignements" class="reveal">

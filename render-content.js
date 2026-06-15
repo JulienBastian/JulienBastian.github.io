@@ -35,12 +35,18 @@ function renderPublications() {
   const container = document.querySelector("#publication-content");
 
   SITE_CONTENT.publicationGroups.forEach((group) => {
+    const visiblePublications = group.publications.filter(
+      (publication) => !publication.hidden
+    );
+
+    if (visiblePublications.length === 0) return;
+
     const groupNode = element("div", "publication-group");
     groupNode.appendChild(element("h3", "group-heading", group.heading));
 
     const list = element("div", "publication-list");
 
-    group.publications.forEach((publication) => {
+    visiblePublications.forEach((publication) => {
       const article = element("article", "publication-entry");
       article.appendChild(element("h4", "publication-title", publication.title));
 
@@ -90,7 +96,14 @@ function renderTeaching() {
 
     teachingYear.courses.forEach((course) => {
       const article = element("article", "teaching-course");
-      article.appendChild(element("h4", "", course.title));
+      const heading = element("div", "course-heading");
+      heading.appendChild(element("h4", "", course.title));
+
+      if (course.language) {
+        heading.appendChild(element("span", "course-language", course.language));
+      }
+
+      article.appendChild(heading);
       article.appendChild(element("p", "entry-authors", course.details));
 
       if (course.description) {
@@ -103,6 +116,42 @@ function renderTeaching() {
     group.appendChild(list);
     container.appendChild(group);
   });
+}
+
+function renderSeminars() {
+  const section = document.querySelector("#seminars");
+  const navLink = document.querySelector("#seminars-nav");
+  const container = document.querySelector("#seminar-content");
+  const seminars = SITE_CONTENT.seminars || [];
+
+  if (seminars.length === 0) return;
+
+  section.hidden = false;
+  navLink.hidden = false;
+
+  const list = element("div", "seminar-list");
+
+  seminars.forEach((seminar) => {
+    const article = element("article", "seminar-entry");
+    article.appendChild(element("h3", "seminar-title", seminar.title));
+
+    const details = [seminar.event, seminar.location, seminar.date]
+      .filter(Boolean)
+      .join(" · ");
+
+    if (details) {
+      article.appendChild(element("p", "seminar-details", details));
+    }
+
+    if (seminar.note) {
+      article.appendChild(element("p", "seminar-note", seminar.note));
+    }
+
+    addLinks(article, seminar.links);
+    list.appendChild(article);
+  });
+
+  container.appendChild(list);
 }
 
 function renderNews() {
@@ -131,5 +180,6 @@ function renderNews() {
 }
 
 renderPublications();
+renderSeminars();
 renderTeaching();
 renderNews();
